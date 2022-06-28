@@ -9847,11 +9847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ORT\\Segundo_Cuatrimestre\\PNT_1\\TPFinal\\RESERVA_RESTAURANT_PNT1\\RESERVA_RESTAURANT_PNT1.csproj",
+      "projectUniqueName": "D:\\ORT\\Segundo_Cuatrimestre\\PNT__1\\RESERVA_RESTAURANT_PNT1\\RESERVA_RESTAURANT_PNT1.csproj",
       "projectName": "RESERVA_RESTAURANT_PNT1",
-      "projectPath": "D:\\ORT\\Segundo_Cuatrimestre\\PNT_1\\TPFinal\\RESERVA_RESTAURANT_PNT1\\RESERVA_RESTAURANT_PNT1.csproj",
+      "projectPath": "D:\\ORT\\Segundo_Cuatrimestre\\PNT__1\\RESERVA_RESTAURANT_PNT1\\RESERVA_RESTAURANT_PNT1.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\ORT\\Segundo_Cuatrimestre\\PNT_1\\TPFinal\\RESERVA_RESTAURANT_PNT1\\obj\\",
+      "outputPath": "D:\\ORT\\Segundo_Cuatrimestre\\PNT__1\\RESERVA_RESTAURANT_PNT1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

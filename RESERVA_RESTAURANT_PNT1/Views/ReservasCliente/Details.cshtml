@@ -1,0 +1,78 @@
+﻿@model RESERVA_RESTAURANT_PNT1.Models.Reserva
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1 class="text-center">Detalle</h1>
+
+<div>
+    <h4>Reserva</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Apellido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Apellido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dni)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dni)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefono)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Comensales)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Comensales)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hora)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hora)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FormaPago)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FormaPago)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Newsletter)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Newsletter)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a class="btn btn-info" asp-action="Index">Volver</a>
+</div>

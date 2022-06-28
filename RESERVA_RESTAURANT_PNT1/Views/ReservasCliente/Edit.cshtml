@@ -1,0 +1,76 @@
+﻿@model RESERVA_RESTAURANT_PNT1.Models.Reserva
+
+@{
+    ViewData["Title"] = "Editar Reserva";
+}
+<h1 class="text-white text-center">Editar Reserva</h1>
+
+<h4>Editar Reserva</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dni" class="control-label"></label>
+                <input asp-for="Dni" class="form-control" />
+                <span asp-validation-for="Dni" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefono" class="control-label"></label>
+                <input asp-for="Telefono" class="form-control" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mail" class="control-label"></label>
+                <input asp-for="Mail" class="form-control" />
+                <span asp-validation-for="Mail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comensales" class="control-label"></label>
+                <input asp-for="Comensales" class="form-control" />
+                <span asp-validation-for="Comensales" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" min="2022-06-21"/>
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hora" class="control-label"></label>
+                <input asp-for="Hora" class="form-control" min="20:00:00"/>
+                <span asp-validation-for="Hora" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FormaPago" class="control-label"></label>
+                <select asp-for="FormaPago" class="form-control" asp-items="Html.GetEnumSelectList<FormaPago>()"></select>
+                <span asp-validation-for="FormaPago" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Newsletter" /> @Html.DisplayNameFor(model => model.Newsletter)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a class="btn btn-info" asp-action="Index">Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

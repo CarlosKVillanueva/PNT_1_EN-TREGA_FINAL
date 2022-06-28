@@ -1,0 +1,57 @@
+﻿@model RESERVA_RESTAURANT_PNT1.Models.Bebida
+
+@{
+    ViewData["Title"] = "Borrar Bebida";
+}
+
+<h1 class="text-center">Borrar Bebida</h1>
+
+<h4>Esta seguro de querer borrar esta Bebida?</h4>
+<div>
+    <h5>Bebida</h5>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cm3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cm3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoBebida)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoBebida)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Presentacion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Presentacion)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Borrar" class="btn btn-danger" />
+        <a class="btn btn-info" asp-action="Index">Volver</a>
+    </form>
+</div>

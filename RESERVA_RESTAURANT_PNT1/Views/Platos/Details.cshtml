@@ -1,0 +1,42 @@
+﻿@model RESERVA_RESTAURANT_PNT1.Models.Plato
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1 class="text-center">Detalle Plato</h1>
+
+<div>
+    <h4>Plato</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Peso)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoPlato)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoPlato)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> |
+    <a class="btn btn-info" asp-action="Index">Volver</a>
+</div>

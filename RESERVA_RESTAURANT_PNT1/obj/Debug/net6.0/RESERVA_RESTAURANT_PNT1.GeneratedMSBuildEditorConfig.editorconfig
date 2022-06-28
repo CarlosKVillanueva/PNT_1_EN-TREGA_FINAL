@@ -8,145 +8,145 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RESERVA_RESTAURANT_PNT1
 build_property.RootNamespace = RESERVA_RESTAURANT_PNT1
-build_property.ProjectDir = D:\ORT\Segundo_Cuatrimestre\PNT_1\TPFinal\RESERVA_RESTAURANT_PNT1\
+build_property.ProjectDir = D:\ORT\Segundo_Cuatrimestre\PNT__1\RESERVA_RESTAURANT_PNT1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\ORT\Segundo_Cuatrimestre\PNT_1\TPFinal\RESERVA_RESTAURANT_PNT1
+build_property.MSBuildProjectDirectory = D:\ORT\Segundo_Cuatrimestre\PNT__1\RESERVA_RESTAURANT_PNT1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Delete.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Details.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Edit.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Bebidas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Clientes/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Clientes/Delete.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Clientes/Details.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Clientes/Edit.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Clientes/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Delete.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Details.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Edit.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Direcciones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Home/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Home/Privacy.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Platos/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Platos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Platos/Delete.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Platos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Platos/Details.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Platos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Platos/Edit.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Platos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Platos/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Platos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNDbGllbnRlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Delete.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNDbGllbnRlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Details.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNDbGllbnRlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Edit.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNDbGllbnRlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/ReservasCliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNDbGllbnRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Reservas/Create.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Reservas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Reservas/Index.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Reservas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Shared/Error.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/_ViewImports.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/_ViewStart.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ORT/Segundo_Cuatrimestre/PNT_1/TPFinal/RESERVA_RESTAURANT_PNT1/Views/Shared/_Layout.cshtml]
+[D:/ORT/Segundo_Cuatrimestre/PNT__1/RESERVA_RESTAURANT_PNT1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6m85cgzyoe

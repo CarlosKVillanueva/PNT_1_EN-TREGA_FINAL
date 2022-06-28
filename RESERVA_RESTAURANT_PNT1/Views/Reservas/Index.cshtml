@@ -1,0 +1,37 @@
+﻿@model List<Reserva>
+
+<h2>Reservas</h2>
+
+<table class="table table-striped table-dark">
+    <thead>
+
+    <tr>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Apellido
+        </th>
+        <th>
+            Dni
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (Reserva reserva in Model)
+        {
+            <tr>
+                <td>
+                    @reserva.Nombre
+                </td>
+                <td>
+                    @reserva.Apellido
+                </td>
+                <td>
+                    @reserva.Dni
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

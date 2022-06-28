@@ -1,0 +1,35 @@
+﻿@model Reserva
+
+<form action="/Reservas/Create" method="post">
+	<label asp-for="Nombre"></label>
+	<input asp-for="Nombre" value="" placeholder="Ingrese su nombre">
+	<label asp-for="Apellido"></label>
+	<input asp-for="Apellido" value="" placeholder="Ingrese su Apellido">
+	<label asp-for="Dni"></label>
+	<input asp-for="Dni" value="" placeholder="Ingrese su Dni">
+	<label asp-for="Telefono"></label>
+	<input asp-for="Telefono" value="" placeholder="Ingrese su Telefono">
+	<label asp-for="Mail"></label>
+	<input asp-for="Mail" value="" placeholder="Ingrese su Correo Electronico">
+	<label asp-for="Comensales"></label>
+	<input asp-for="Comensales" value="" placeholder="Comensales para Reserva">
+	<label asp-for="Fecha"></label>
+	<input asp-for="Fecha" value="" placeholder="Ingrese Fecha de Reserva">
+	<label asp-for="Hora"></label>
+	<input asp-for="Hora" value="" placeholder="Ingrese hora de reserva">
+	<label asp-for="FormaPago"></label>
+	<input asp-for="FormaPago" value="" placeholder="Forma de Pago">
+	<label asp-for="Newsletter"></label>
+	<input asp-for="Newsletter" value="">
+
+	<input type="submit" value="Enviar">
+
+</form>
+
+@if (Model != null)
+{
+	<div>
+		@Model.Nombre
+	</div>
+}
+
