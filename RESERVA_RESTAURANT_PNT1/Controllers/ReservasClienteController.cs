@@ -15,8 +15,6 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
     {
         private readonly RestaurantContext _context;
         private int CapacidadResto { get; set; } = Restaurant.Capacidad;
-        private int AcumReservas { get; set; }
-        
 
 
         public ReservasClienteController(RestaurantContext context)
@@ -29,15 +27,9 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
         {
             #region Prueba
 
-            //Guardamos el DBSet que nos devuelve el contexto convirtiendolo en una lista
             List<Reserva> reservas = _context.Reservas.ToList();
-            //AcumReservas = reservas.Count(r => r.Comensales > 0);
-
-            // Calculando Capacidad Resto
             ViewBag.capacidadLibre = CapacidadResto - reservas.Sum(r => r.Comensales);
 
-            /*// Comparamos
-            bool hayCapacidad = CapacidadResto > AcumReservas;*/
             #endregion
 
             return View(await _context.Reservas.ToListAsync());
@@ -64,11 +56,6 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
         // GET: ReservasCliente/Create
         public IActionResult Create()
         {
-
-
-
-            //ACA SE HACE EL VIEWBAG CON EL CALCULO
-
             return View();
         }
 
@@ -79,23 +66,17 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Apellido,Dni,Telefono,Mail,Comensales,Fecha,Hora,FormaPago,Newsletter")] Reserva reserva)
         {
-
-
+            List<Reserva> reservas = _context.Reservas.ToList();
+            bool haylugar = CapacidadResto > reservas.Sum(r => r.Comensales);
 
             if (ModelState.IsValid)
-            {
-                /*
-                 *  Del DBSet de Reservas, debemos poder hacer un select con una expresion de consulta dentro
-                 *  de linQ. para sumar los comensales. Restamos al Resto la capacidad
-                 *
-                 *  Return boolean
-                 *
-                 * if true grabamos en base de datos
-                 * */
-                _context.Add(reserva);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
+                if (haylugar)
+                {
+                    _context.Add(reserva);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+
             return View(reserva);
         }
 
@@ -112,6 +93,7 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
             {
                 return NotFound();
             }
+
             return View(reserva);
         }
 
@@ -145,8 +127,10 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(reserva);
         }
 
@@ -177,19 +161,20 @@ namespace RESERVA_RESTAURANT_PNT1.Controllers
             {
                 return Problem("Entity set 'RestaurantContext.Reservas'  is null.");
             }
+
             var reserva = await _context.Reservas.FindAsync(id);
             if (reserva != null)
             {
                 _context.Reservas.Remove(reserva);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ReservaExists(int id)
         {
-          return _context.Reservas.Any(e => e.Id == id);
+            return _context.Reservas.Any(e => e.Id == id);
         }
     }
 }
